@@ -123,7 +123,7 @@ sub setAlone {
    return $self;
 }
 
-=item setAlone
+=item setBid
 
 Indicate that this player has chosen to choose trump in the current hand.
 

@@ -8,7 +8,7 @@ Games::Euchre::Trick - Trick class for Euchre card game
 
 Only one Trick instance is alive at one time per Euchre game.  The
 Trick keeps track of which cards have been played, and provides useful
-functions to determine which cards are legal players, as well as who
+functions to determine which cards are legal plays, as well as who
 is the winner of the trick.  The trick class makes the determination
 of which card beats which card, given the current trump and lead.  The
 trick class knows how to handle an alone hand and it calls the
@@ -62,6 +62,12 @@ sub new {
    }
    return $self;
 }
+
+=back
+
+=head1 CLASS METHODS
+
+=over 4
 
 =item getGame
 

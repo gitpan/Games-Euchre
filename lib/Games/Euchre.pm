@@ -52,7 +52,7 @@ use Games::Euchre::Team;
 use Games::Euchre::Player;
 use Games::Euchre::Trick;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 =head1 CLASS METHODS
 

@@ -89,9 +89,7 @@ optional rule is in effect
 
 'notrump' is a boolean saying whether the 'no trump' optional rule is in effect
 
-This function must return one of:
-
-   H, D, C, S, N, HA, DA, CA, SA, NA, or undef
+This function must return one of: H, D, C, S, N, HA, DA, CA, SA, NA, or undef
 
 'N' means 'no trump', 'A' means 'alone', undef means 'pass'.  Not all
 of these are legal at any given round!  Use the isLegalBid() method

@@ -1,3 +1,13 @@
+2003-08-05 10:29  chris
+
+	* Makefile.PL, lib/Games/Euchre.pm: v1.01 Fix missing Makefile.PL
+	prerequisite
+
+2003-02-18 01:01  chris
+
+	* lib/Games/Euchre/: AI.pm, Player.pm, Trick.pm: Fix a few minor
+	documentation errors
+
 2003-02-15 15:10  chris
 
 	* README: Touch up README for 1.00 release
