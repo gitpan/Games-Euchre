@@ -1,3 +1,10 @@
+2003-08-05 15:27  chris
+
+	* Makefile.PL, makehtml, lib/Games/Euchre.pm,
+	lib/Games/Euchre/Player.pm: v1.02 Change to use newer Scalar::Util
+	instead of faulty WeakRef (in reponse to bug report by Jost
+	Krieger's Smokehouse)
+
 2003-08-05 10:29  chris
 
 	* Makefile.PL, lib/Games/Euchre.pm: v1.01 Fix missing Makefile.PL

@@ -12,9 +12,10 @@ whether he bid and whether he went alone.
 
 =cut
 
+require 5.005_57;
 use strict;
 use warnings;
-use WeakRef;
+use Scalar::Util;
 use Games::Cards;
 
 =head1 CLASS METHODS
